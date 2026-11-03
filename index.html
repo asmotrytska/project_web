@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZOOM Design - Home</title>
+    <title>ZOOM Design</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,18 +15,60 @@
         
         <nav>
             <ul>
-                <li><a href="index.html" class="active">HOME</a></li>
-                <li><a href="#">SERVICES</a></li>
-                <li><a href="#">PORTFOLIO</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a href="#home" class="active">HOME</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="hero">
-        <h1>Try Design, You'll Like It.</h1>
-        <a href="#" class="btn">SHOW ME THEN !!!</a>
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Try Design, You'll Like It.</h1>
+            <a href="#services" class="btn">SHOW ME THEN !!!</a>
+        </div>
+    </section>
+
+    <section id="services" class="services-section">
+        <div class="services-grid">
+            <div class="service-item">
+                <div class="service-icon">
+                    <img src="icon-lamp.png" alt="Web Design">
+                </div>
+                <h3>WEB DESIGN</h3>
+                <p>Eum cu tantas legere complectitur. Tantas legere complectitur, hinc utamur ea eam ustolion mplectitur, hinc utal.</p>
+            </div>
+            
+            <div class="service-item">
+                <div class="service-icon">
+                    <img src="icon-pencil.png" alt="Graphic Design">
+                </div>
+                <h3>GRAPHIC DESIGN</h3>
+                <p>Eum cu tantas legere complectitur, hinc utamur ea eaum cu tantas legere complectitur.Tantas legere complectitur ustolion mplectitur, hinc utal.</p>
+            </div>
+            
+            <div class="service-item">
+                <div class="service-icon">
+                    <img src="icon-gear.png" alt="Programming">
+                </div>
+                <h3>PROGRAMMING</h3>
+                <p>Eum cu tantas legere complectitur, hinc utamur ea e cu tantas legere com , eam ustolion mplectitur, hinc utal.</p>
+            </div>
+            
+            <div class="service-item">
+                <div class="service-icon">
+                    <img src="icon-camera.png" alt="Photography">
+                </div>
+                <h3>PHOTOGRAPHY</h3>
+                <p>Eum cu tantas legere complectitur.Tantas legere complectitur, hinc utamur ea eam ustolion mplectitur, hinc utal.</p>
+            </div>
+        </div>
+
+        <div class="services-action">
+            <a href="#" class="btn-red">NEED SERVICE?</a>
+        </div>
     </section>
 
 </body>
